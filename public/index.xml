@@ -1,33 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
-    <generator>Hugo -- 0.143.1</generator>
+    <title>adamfarmer.dev</title>
+    <link>/</link>
+    <description>adamfarmer.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    
+
+    
     <lastBuildDate>Wed, 12 Feb 2025 17:26:46 +1100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Hello</title>
-      <link>http://localhost:1313/test/hello/</link>
+      <link>/test/hello/</link>
       <pubDate>Wed, 12 Feb 2025 17:26:46 +1100</pubDate>
-      <guid>http://localhost:1313/test/hello/</guid>
-      <description>&lt;p&gt;Hello world&lt;/p&gt;</description>
+      
+      <guid>/test/hello/</guid>
+      <description>&lt;p&gt;Hello world&lt;/p&gt;
+</description>
     </item>
+    
     <item>
       <title>another</title>
-      <link>http://localhost:1313/test/another/</link>
+      <link>/test/another/</link>
       <pubDate>Tue, 11 Feb 2025 17:26:46 +1100</pubDate>
-      <guid>http://localhost:1313/test/another/</guid>
+      
+      <guid>/test/another/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>even more</title>
-      <link>http://localhost:1313/test/evenmore/</link>
+      <link>/test/evenmore/</link>
       <pubDate>Mon, 10 Feb 2025 17:26:46 +1100</pubDate>
-      <guid>http://localhost:1313/test/evenmore/</guid>
-      <description></description>
+      
+      <guid>/test/evenmore/</guid>
+      <description>&lt;pre class=&#34;mermaid&#34;&gt;sequenceDiagram
+    a-&gt;&gt;b: hello
+&lt;/pre&gt;
+
+</description>
     </item>
+    
   </channel>
 </rss>

@@ -1,4 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme ='PaperMod'
+title = 'adamfarmer.dev'
+theme ='anubis2'
+
+[params]

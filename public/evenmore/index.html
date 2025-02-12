@@ -10,9 +10,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>Hello - adamfarmer.dev</title>
+<title>even more - adamfarmer.dev</title>
 
-<meta name="description" content="Hello world">
+<meta name="description" content="sequenceDiagram
+    a-&gt;&gt;b: hello
+">
 
 
 
@@ -317,7 +319,7 @@
     <article class="post h-entry">
         <div class="post-header">
             <header>
-                <h1 class="p-name post-title">Hello</h1>
+                <h1 class="p-name post-title">even more</h1>
                 
 
             </header>
@@ -328,12 +330,12 @@
 <div class="post-info noselect">
     
         <div class="post-date dt-published">
-            <time datetime="2025-02-12">2025-02-12</time>
+            <time datetime="2025-02-10">2025-02-10</time>
             
         </div>
     
 
-    <a class="post-hidden-url u-url" href="/test/hello/">/test/hello/</a>
+    <a class="post-hidden-url u-url" href="/evenmore/">/evenmore/</a>
     <a href="http://localhost:1313/" class="p-name p-author post-hidden-author h-card" rel="me"></a>
 
 
@@ -377,7 +379,10 @@
 </script>
 
         <div class="content e-content">
-            <p>Hello world</p>
+            <pre class="mermaid">sequenceDiagram
+    a->>b: hello
+</pre>
+
 
         </div>
 
@@ -407,6 +412,47 @@
     
 
     
+
+    
+        
+
+    
+
+
+
+
+
+    
+    
+    
+
+    
+        <script src="/js/script.0d57282e45c857ab017d29008f23c3cd0ae48daf43af0f71e2be3fa5a56e7171.js" type="text/javascript" charset="utf-8" integrity="sha256-DVcoLkXIV6sBfSkAjyPDzQrkja9Drw9x4r4/paVucXE="></script>
+    
+
+
+
+
+
+
+
+<script type="module">
+    function detectCurrentScheme3() {
+        const defaultTheme = "light";
+        if (localStorage !== null && localStorage.getItem("user-color-scheme")) {
+            return localStorage.getItem("user-color-scheme");
+        }
+        if (defaultTheme === "dark" || defaultTheme === "light") {
+            return defaultTheme;
+        }
+        return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    window.mermaid = mermaid;
+    window.initMermaid()
+    document.body.dispatchEvent(new CustomEvent(detectCurrentScheme3() + "-theme-set"));
+</script>
 
     
 
